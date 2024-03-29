@@ -14,6 +14,7 @@ async function MoviePage({ params }) {
           src={`https://image.tmdb.org/t/p/original/${
             movie.backdrop_path || movie.poster_path
           }`}
+          alt="movieImage"
           width={500}
           height={300}
           className="rounded-lg"

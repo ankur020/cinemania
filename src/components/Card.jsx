@@ -11,6 +11,7 @@ function Card({ res }) {
           src={`https://image.tmdb.org/t/p/original/${
             res.backdrop_path || res.poster_path
           }`}
+          alt="MovieImage"
           width={500}
           height={300}
           className="rounded-t-lg group-hover:opacity-75 transition-opacity duration-300 max-h-40"
